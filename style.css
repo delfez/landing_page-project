@@ -1,0 +1,163 @@
+
+
+body{
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    
+    
+}
+header{
+    display: flex;
+    background-color: rgb(65, 75, 10);
+    flex-direction: column;
+    color: azure;
+    padding:  1px 30px;
+    padding-left: 270px;
+    
+  
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 15px;
+    margin-left: auto;
+    margin-right: 230px;
+    margin-top: 20px;
+    font-size: 18px;
+}
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+    color: azure;
+}
+.logo {
+    margin-top: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    
+}
+h1{
+    font-size: 48px;
+    font-weight: 900px;
+
+}
+.header-top{
+    display: flex;
+}
+.header-bot{
+    display: flex;
+    margin-top: 110px;
+    align-items: flex-start;
+    margin-bottom: 125px;
+    
+}
+.header-bot-text{
+    margin-top:-37px;
+    max-width: 575px;
+}
+.main-image{
+    width: auto;
+    height: 225px;
+    margin-left:auto ;
+    margin-right: 270px;
+}
+.secondary{
+    font-size: 18px;
+}
+.button1{
+    background-color:rgb(117, 137, 20);
+    padding: 7px 35px;
+    border-radius: 8px;
+    border-color:rgb(117, 137, 20);
+    border-style: none;
+    font-size: 18px;
+    color: azure;
+}
+.mid{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 15px;
+    padding-bottom: 125px;
+}
+.imid{
+    
+    width: auto;
+    height: 175px;
+    border: 4px solid rgb(137, 157, 25);
+    border-radius: 10px;
+   
+}
+.info-images{
+    display: flex;
+    gap: 125px;
+    
+}
+.mid-images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+   
+}
+.mid-info-text{
+    font-size: 36px;
+    font-weight: bold;
+    color: rgb(65, 75, 10);
+    margin-bottom: 60px;
+}
+.quote{
+    background-color:rgb(230, 250, 180); 
+    padding: 70px 350px;
+    font-size: 28px;
+    color:rgb(35, 45, 0);   
+    
+}
+.citation{
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 500px;
+}
+.image-info{
+    max-width: 182px;
+    text-align: center;
+    margin-top: -20px;
+}
+.call{
+    margin:105px 300px;
+    background-color:rgb(145, 165, 40); 
+    padding: 35px 100px;
+    border-radius: 15px;
+    color: azure;
+}
+.call-title{
+    font-weight: 900;
+    font-size: 26px;
+}
+.call-body{
+    font-size: 18px;
+}
+.call {
+    display: flex;
+    align-items: center;
+    
+}
+.button{
+    margin-left: auto;
+    margin-right: 100px;
+}
+.button2{
+    border: 3px solid azure;
+    padding: 9px 38px;
+    border-radius: 8px;
+    font-size: 20px;
+    height: 100px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    padding:40px ;
+    background-color: rgb(65, 75, 10);
+    color: azure;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
